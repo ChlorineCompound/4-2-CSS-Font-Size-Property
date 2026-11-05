@@ -4,11 +4,24 @@
         <meta charset="utf-8">
         <title>Challenge: Great big font sizes</title>
         <style>
+
+            #florp {
+
+                font-size: x-large;
+                
+            }
             .big {
                 
+                font-weight: 800;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: rgb(255, 0, 106);
+                font-size: 30px;
+                font-size: 5em;
             }
             
             .bigger { 
+                font-display: fallback;
+                font-size: 0.003em;
                 
             }
         </style>
@@ -18,7 +31,7 @@
 <h1>Great Big Words</h1>
 <h2>by Michael Mark &amp Tom Chapin</h2>
 
-<p>When I was a little kid,
+<p id="florp">When I was a little kid,
 a "<em class="big">diminutive juvenile</em>," <br>
 I liked my folks to read to me,
 I was an <em class="big">"eager bibliophile."</em> <br>
